@@ -1,0 +1,18 @@
+.featured-text{
+  text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
+}
+
+select{
+  background-color: #080808;
+  color: white;
+
+  border: 1px white solid;
+  padding: 8px;
+  margin: 8px;
+}
+
+option{
+  background-color: #080808;
+  padding: 8px;
+  margin: 8px;
+}
