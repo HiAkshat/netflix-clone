@@ -28,9 +28,9 @@ export default function ListRow() {
   
   return (
 
-    <div className='bg-[#080808] text-white'>
+    <div className=' bg-[#080808] text-white'>
       <span className="text-2xl pt-4 px-10 block">Continue to watch</span>
-      <div className="relative">
+      <div className="listRow relative">
         {isMoved&&<ArrowBackIosNewIcon className='absolute top-0 bottom-0 m-auto arrow left-3 text-white bg-[rgb(0,0,0,0.5)] cursor-pointer' onClick={() => handleClick("left")}/>}
         
         <div className="flex listItemContainer pl-10 py-6 text-black" ref={listContainerRef}>

@@ -6,4 +6,5 @@
 .listItemContainer{
   transform: translateX(0px);
   width: max-content;
+  transition: all 0.3s ease;
 }
