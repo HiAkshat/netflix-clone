@@ -1,0 +1,9 @@
+.arrow{
+  transform: scale(1.8);
+  z-index: 99;
+}
+
+.listItemContainer{
+  transform: translateX(0px);
+  width: max-content;
+}

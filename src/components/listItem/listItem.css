@@ -1,0 +1,38 @@
+.list-item{
+  margin-right: 10px;
+}
+
+.big-box{
+}
+
+.list-item:hover img{
+  width: 340px;
+  object-fit: cover;
+}
+
+.list-item:hover .big-box{
+  display:  block;
+}
+
+.list-item:hover{
+  /* position: absolute; */
+  z-index: 999;
+  top: 0;
+  bottom: 0px;
+}
+
+
+.big-box-icon{
+  border: 2px solid white;
+  transform: scale(1.4);
+  border-radius: 9999px;
+  padding: 3px;
+  margin: 12px;
+  margin-top: 18px;
+  margin-right: 10px; 
+  cursor: pointer;
+}
+
+.last-icon{
+  margin-right: 14px;
+}

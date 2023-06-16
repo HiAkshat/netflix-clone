@@ -13,12 +13,15 @@
 
 .navbarLeft{
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .navbarRight{
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .options{
   display: none;
+  cursor: pointer;
 }

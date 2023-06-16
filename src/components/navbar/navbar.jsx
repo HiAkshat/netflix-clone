@@ -19,7 +19,7 @@ export default function Navbar() {
     <div className={isScrolled ? 'navbar scrolled fixed w-full z-[999]' : 'navbar fixed w-full z-[999]'}>
       <div className='flex justify-between text-white p-6 items-center'>
         <div className='flex items-center'>
-          <img className='w-32 mx-6 mr-10' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png" alt="" />
+          <img className='w-32 mx-6 mr-10 cursor-pointer' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png" alt="" />
           <span className='navbarLeft'>Homepage</span>
           <span className='navbarLeft'>Series</span>
           <span className='navbarLeft'>Movies</span>
