@@ -1,13 +1,19 @@
-.list-item{
-  margin-right: 10px;
+*{
+  /* transition: all 1s ease; */
 }
 
+.list-item{
+  margin-right: 10px;
+} 
+
 .big-box{
+  transition: all 0.3 ease;
 }
 
 .list-item:hover img{
   width: 340px;
   object-fit: cover;
+  border-radius: 6px;
 }
 
 .list-item:hover .big-box{
@@ -15,10 +21,10 @@
 }
 
 .list-item:hover{
-  /* position: absolute; */
+  position: absolute;
+  top: -140px;
   z-index: 999;
-  top: 0;
-  bottom: 0px;
+  /* bottom: 0px; */
 }
 
 
