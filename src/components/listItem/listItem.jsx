@@ -13,8 +13,8 @@ export default function ListItem() {
       <div className="list-item">
         <img className="list-item-image w-64 cursor-pointer" src="./assets/listItem2.jpg" alt="" />
         <div className="big-box text-white hidden w-[340px] bg-[#151515]">
-          {/* <img className="w-[340px] cursor-pointer" src="./assets/listItem2.jpg" alt="" /> */}
-          <video src="./assets/trailer.mp4" loop muted autoPlay/>
+          <img className="w-[340px] cursor-pointer" src="./assets/listItem2.jpg" alt="" />
+          {/* <video src="./assets/trailer.mp4" loop muted autoPlay/> */}
           <div className='big-box-icons flex justify-between'>
             <div>
               <PlayArrowIcon className='big-box-icon'/>
