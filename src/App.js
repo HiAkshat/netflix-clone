@@ -1,4 +1,5 @@
 import Home from "./pages/home/home"
+import Watch from "./pages/watch/watch";
 
 import './App.css';
 

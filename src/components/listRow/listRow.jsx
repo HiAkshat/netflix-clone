@@ -10,7 +10,7 @@ export default function ListRow() {
 
   const [slideNum, setSlideNum] = useState(0);
   const listContainerRef = useRef();
-  
+
   const handleClick = (direction) => {
     setIsMoved(true)
     let dist = listContainerRef.current.getBoundingClientRect().x
