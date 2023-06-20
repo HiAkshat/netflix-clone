@@ -5,19 +5,20 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 import "./listItem.css"
+import {Link} from "react-router-dom";
 import { ThumbsUpDown } from '@mui/icons-material';
 
 export default function ListItem() {
   return (
     <div>
       <div className="list-item">
-        <img className="list-item-image w-64 cursor-pointer" src="./assets/listItem2.jpg" alt="" />
+        <Link to="watch"><img className="list-item-image w-64 cursor-pointer" src="./assets/listItem2.jpg" alt="" /></Link>
         <div className="big-box text-white hidden w-[340px] bg-[#151515]">
-          <img className="w-[340px] cursor-pointer" src="./assets/listItem2.jpg" alt="" />
+          <Link to="watch"><img className="w-[340px] cursor-pointer" src="./assets/listItem2.jpg" alt="" /></Link>
           {/* <video src="./assets/trailer.mp4" loop muted autoPlay/> */}
           <div className='big-box-icons flex justify-between'>
             <div>
-              <PlayArrowIcon className='big-box-icon'/>
+              <Link to="watch"><PlayArrowIcon className='big-box-icon'/></Link>
               <AddIcon className='big-box-icon'/>
               <ThumbUpIcon className='big-box-icon'/>
               <ThumbDownIcon className='big-box-icon'/>
